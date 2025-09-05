@@ -24,3 +24,4 @@ goodreads/*
 !goodreads/goodreads_processing.py
 
 temp/
+/ml-1m
