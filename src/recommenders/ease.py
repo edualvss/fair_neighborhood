@@ -23,6 +23,7 @@ class myEASE(ItemSimilarityMatrixAlgorithm):
         super().__init__()
         self.l2 = l2 
         self.method = method
+        self.iters = 0 # Just for compatibility
 
     def _fit(self, X: csr_matrix):
         """
